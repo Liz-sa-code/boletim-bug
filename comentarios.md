@@ -1,0 +1,1 @@
+O bug ocorria porque o laço de `calcularMedia` começava no índice `1`, ignorando a primeira nota de cada aluno. O início foi alterado para o índice `0`, fazendo com que todas as notas sejam somadas antes da divisão pela quantidade de notas.
